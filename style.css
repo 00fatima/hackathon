@@ -1,0 +1,173 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.ncontent a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-right: 15px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    align-self: center;
+    border-radius: 5px;
+}
+
+/* hero css */
+.hero {
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.hero-content {
+    text-align: left;
+    align-self: center;
+}
+#firsth {
+    font-size: 40px;
+    font-weight: 600;
+}
+#secondh {
+    font-size: 40px;
+    color: green;
+    font-weight: 600;
+}
+
+.hero-pic img {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+
+/* Third layer */
+.third {
+    line-height: 20px;
+}
+
+#tone {
+    text-align: center;
+}
+#ttwo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#tthree {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+}
+#tfour {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tfour img {
+    margin-top: 25px
+}
+
+.tcontent {
+    background-color: white;
+    height: 300px;
+    width: 270px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 3px rgb(171, 169, 169);
+    border-radius: 7px;
+}
+
+
+/* FOURTH LAYER */
+#forth {
+    display: flex;
+    justify-content: flex-end;
+    height: 350px;
+}
+#fpic {
+    margin-left: 50px;
+}
+
+#fcontent {
+    text-align: left;
+    width: 700px;
+    padding-right: 80px;
+    align-self: center;
+}
+#fcontent h2 {
+    font-weight: 20px;
+    font-size: 30px;
+} 
+
+/* FIFTH LAYER */
+
+#fifth {
+    background-color: #F5F7FA ;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ffone {
+}
+#ffh1 {
+    font-size: 30px;
+}
+#ffh2 {
+    color: #388E3B;
+    font-size: 30px;
+}
+
+#fftwo {
+
+    margin-right: 30px;
+    flex-direction: row;
+    display: flex;
+}
+
+
+/* 6th LAYER */
+#sixth {
+    text-align: center;
+}
+
+/* FOOTER */
+#main {
+    background-color: #263238 ;
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    align-items: center;
+}
+#footer1 {
+    color: white;
+}
+
+#footer2 {
+    display: flex;
+
+    color: white;
+}
+#footer2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+}
